@@ -28,7 +28,7 @@ sp-runtime = { git = "https://github.com/futureversecom/substrate", branch = "po
 sp-state-machine = { git = "https://github.com/futureversecom/substrate", branch = "polkadot-v0.9.23" }
 
 # Polkadot
-polkadot-cli = { git = "ssh://git@github.com/futureversecom/relay-chain", branch = "release/0.0.1-rc0" }
+polkadot-cli = { git = "ssh://git@github.com/futureversecom/relay-chain", branch = "release/0.0.1-rc0", default-features = false }
 polkadot-client = { git = "ssh://git@github.com/futureversecom/relay-chain", branch = "release/0.0.1-rc0" }
 polkadot-service = { git = "ssh://git@github.com/futureversecom/relay-chain", branch = "release/0.0.1-rc0" }
 

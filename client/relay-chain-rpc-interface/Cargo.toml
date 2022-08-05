@@ -6,18 +6,18 @@ edition = "2021"
 
 
 [dependencies]
-polkadot-service = { git = "https://github.com/futureverse-root/polkadot", branch = "release-v0.9.23" }
+polkadot-service = { git = "ssh://git@github.com/futureversecom/relay-chain", branch = "release/0.0.1-rc0" }
 
 cumulus-primitives-core = { path = "../../primitives/core" }
 cumulus-relay-chain-interface = { path = "../relay-chain-interface" }
 
-sp-core = { git = "https://github.com/futureverse-root/substrate", branch = "polkadot-v0.9.23" }
-sp-api = { git = "https://github.com/futureverse-root/substrate", branch = "polkadot-v0.9.23" }
-sp-runtime = { git = "https://github.com/futureverse-root/substrate", branch = "polkadot-v0.9.23" }
-sp-state-machine = { git = "https://github.com/futureverse-root/substrate", branch = "polkadot-v0.9.23" }
-sc-client-api = { git = "https://github.com/futureverse-root/substrate", branch = "polkadot-v0.9.23" }
-sp-storage = { git = "https://github.com/futureverse-root/substrate", branch = "polkadot-v0.9.23" }
-sc-rpc-api = { git = "https://github.com/futureverse-root/substrate", branch = "polkadot-v0.9.23" }
+sp-core = { git = "https://github.com/futureversecom/substrate", branch = "polkadot-v0.9.23" }
+sp-api = { git = "https://github.com/futureversecom/substrate", branch = "polkadot-v0.9.23" }
+sp-runtime = { git = "https://github.com/futureversecom/substrate", branch = "polkadot-v0.9.23" }
+sp-state-machine = { git = "https://github.com/futureversecom/substrate", branch = "polkadot-v0.9.23" }
+sc-client-api = { git = "https://github.com/futureversecom/substrate", branch = "polkadot-v0.9.23" }
+sp-storage = { git = "https://github.com/futureversecom/substrate", branch = "polkadot-v0.9.23" }
+sc-rpc-api = { git = "https://github.com/futureversecom/substrate", branch = "polkadot-v0.9.23" }
 
 futures = "0.3.21"
 futures-timer = "3.0.2"
